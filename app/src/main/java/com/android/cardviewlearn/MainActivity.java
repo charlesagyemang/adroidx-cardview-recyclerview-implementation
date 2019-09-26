@@ -27,6 +27,14 @@ public class MainActivity extends AppCompatActivity {
 
         userList.add(new User ("name"));
         userList.add(new User ("name"));
+        userList.add(new User ("name"));
+        userList.add(new User ("name"));
+        userList.add(new User ("name"));
+        userList.add(new User ("name"));
+        userList.add(new User ("name"));
+        userList.add(new User ("name"));
+
+
 
 
         recyclerView = findViewById(R.id.recView);
