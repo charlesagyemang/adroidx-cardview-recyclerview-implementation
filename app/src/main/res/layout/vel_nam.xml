@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    app:cardCornerRadius="15dp"
+    android:id="@+id/card_view"
+    android:padding="20dp"
+    android:layout_height="100dp"
+
+    >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="#000"
+            >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textColor="#fff"
+                    android:id="@+id/koko22"
+                    android:textAlignment="center"
+                    android:text="Nkaye"
+                    android:textSize="30dp"
+                    />
+        </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>
