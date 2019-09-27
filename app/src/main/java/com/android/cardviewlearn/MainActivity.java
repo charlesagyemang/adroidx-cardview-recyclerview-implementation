@@ -25,15 +25,24 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        userList.add(new User ("name"));
-        userList.add(new User ("name"));
-        userList.add(new User ("name"));
-        userList.add(new User ("name"));
-        userList.add(new User ("name"));
-        userList.add(new User ("name"));
-        userList.add(new User ("name"));
-        userList.add(new User ("name"));
+        User user =  new User (
+                "Available Beds",
+                "1000",
+                getResources().getDrawable(R.drawable.pat),
+                getResources().getDrawable(R.drawable.bg3)
+        );
 
+        User user2 =  new User (
+                "Koobi Adorable",
+                "77",
+                getResources().getDrawable(R.drawable.cloud),
+                getResources().getDrawable(R.drawable.bg2)
+        );
+
+        userList.add(user2);
+        userList.add(user);
+        userList.add(user2);
+        userList.add(user);
 
 
 
