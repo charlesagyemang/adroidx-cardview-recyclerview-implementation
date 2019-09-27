@@ -6,7 +6,6 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
-import android.widget.RelativeLayout;
 
 import com.android.cardviewlearn.adapters.UserAdapter;
 import com.android.cardviewlearn.models.User;
@@ -29,14 +28,14 @@ public class MainActivity extends AppCompatActivity {
                 "Available Beds",
                 "1000",
                 getResources().getDrawable(R.drawable.pat),
-                getResources().getDrawable(R.drawable.bg3)
+                getResources().getDrawable(R.drawable.green_mix)
         );
 
         User user2 =  new User (
                 "Koobi Adorable",
                 "77",
                 getResources().getDrawable(R.drawable.cloud),
-                getResources().getDrawable(R.drawable.bg2)
+                getResources().getDrawable(R.drawable.orange_mix)
         );
 
         userList.add(user2);
